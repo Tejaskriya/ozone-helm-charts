@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  ozone:
+  - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-09-30T14:51:16.447789+05:30"
+    description: The official Helm chart for Apache Ozone
+    digest: f0022fa2f7adf3651b06e3fb892d52acbb061ee128fb15f754ec208f485af18b
+    home: https://ozone.apache.org
+    icon: https://ozone.apache.org/ozone-logo.png
+    keywords:
+    - apache
+    - ozone
+    - object-storage
+    - S3
+    - storage
+    name: ozone
+    sources:
+    - https://github.com/apache/ozone
+    type: application
+    urls:
+    - https://tejaskriya.github.io/ozone-helm-charts/ozone-0.2.0.tgz
+    version: 0.2.0
+generated: "2025-09-30T14:51:16.446992+05:30"
