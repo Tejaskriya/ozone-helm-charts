@@ -15,7 +15,7 @@
   limitations under the License.
 -->
 
-# Helm charts for Apache Ozone
+# Helm charts for Apache Ozone - TEJASKRIYA
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -24,21 +24,13 @@ This repository provides Helm charts for installing Apache Ozone on Kubernetes. 
 ## Helm charts repository
 Use the following command to add the repository to Helm client configuration:
 ```shell
-helm repo add ozone https://apache.github.io/ozone-helm-charts/
-helm repo add my-fork https://tejaskriya.github.io/ozone-helm-charts/
+helm repo add my-ozone https://tejaskriya.github.io/ozone-helm-charts/
 ```
 List the latest stable versions of available Helm charts with the commands:
 ```shell
-helm repo update ozone
-helm search repo ozone
+helm repo update my-ozone
+helm search repo my-ozone
 ```
-
-## Contributing
-
-All contributions are welcome.
-Please open a [Jira](https://issues.apache.org/jira/projects/HDDS/issues) issue and create a pull request.
-
-For more information, please check the [Contribution guideline](https://github.com/apache/ozone/blob/master/CONTRIBUTING.md).
 
 ## License
 
