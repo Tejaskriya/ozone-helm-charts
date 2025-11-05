@@ -96,7 +96,7 @@ datanode:
   # Datanode persistence
   persistence:
     # Enable persistence
-    enabled: false
+    enabled: true
     # Persistence access modes
     accessModes:
       - ReadWriteOnce
@@ -152,7 +152,7 @@ om:
   # Ozone Manager persistence
   persistence:
     # Enable persistence
-    enabled: false
+    enabled: true
     # Persistence access modes
     accessModes:
       - ReadWriteOnce
@@ -211,7 +211,7 @@ scm:
   # Storage Container Manager persistence
   persistence:
     # Enable persistence
-    enabled: false
+    enabled: true
     # Persistence access modes
     accessModes:
       - ReadWriteOnce
